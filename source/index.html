@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" onclick="jump()">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Flappy Bird</title>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="syle.css">
 </head>
+
 <body>
-    <div id="game">
-        <div id="block"></div>
-        <div id="hole"></div>
-        <div id="character"></div>
-    </div>
-    <script src="script.js"></script>
+  <div class="background"></div>
+  <img class="bird" src="bird.png" alt="bird-img">
+  <div class="message">
+    Press Enter To Start Game
+  </div>
+  <div class="score">
+    <span class="score_title"></span>
+    <span class="score_val"></span>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
